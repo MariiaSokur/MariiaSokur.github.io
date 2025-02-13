@@ -14,8 +14,8 @@
         <div class="Mainprompt">
             <img class="image" src="images/cute.gif"></img>
             <div class="text">
-              <h1 class="hh" id="name">Привіт, красуне!</h1>
-              <p class="pp" id="question">Ти будеш моєю Валентинкою? </p>
+              <h1 class="hh" id="name">Cześć, Ka bum bum!</h1>
+              <p class="pp" id="question">Czy bedziesz moją Walentynką? </p>
             </div>
             <div class="buttons">
                 <button class="button no" id="no-button" onclick="showMessage('No')">Ні</button>
@@ -50,7 +50,7 @@
     noButton.style.top = randomY + "px";
 
     document.getElementById("question").textContent =
-      "Альо, ти що там задумала?";
+      "Halo, co ty tam kombinujesz?";
     document.getElementById("name").style.display = "none";
 
   }
@@ -60,7 +60,7 @@
     document.getElementById("no-button").remove();
 
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "Ти моя бусінка 😘";
+    yesMessage.textContent = "Oh, ty mój ogóreczku 🥒😘";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/kiss.gif";
